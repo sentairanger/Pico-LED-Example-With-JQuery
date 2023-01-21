@@ -1,5 +1,5 @@
 # Pico-LED-Example-With-JQuery
-This project uses the Raspberry Pi Projects Pico W tutorial and adds CSS and JQuery. The original tutorial did not use JQuery and CSS so I created this for anyone who is starting new with the Pico W.
+This project uses the Raspberry Pi Projects Pico W tutorial and adds CSS and JQuery. The original tutorial did not use JQuery and CSS so I created this for anyone who is starting with the Pico W.
 
 ## Getting Started
 
