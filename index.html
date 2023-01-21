@@ -1,0 +1,30 @@
+<html>
+<head>
+<style>
+body {
+	background: #33ffeb;
+}
+button {
+	padding: 16px 32px;
+	font-size: 16px;
+	background: #ff33b9;
+	border-radius: 12px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<h1>Pico LED Button </h1>
+<button id="on"> On </button>
+<script>
+$('#on').on('mousedown', function(){
+	$.get('/on?');
+	
+	});
+$('#on').on('mouseup', function(){
+	$.get('/off?');
+	
+	});
+</script>
+</body>
+</html>
